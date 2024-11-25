@@ -1,0 +1,49 @@
+.price img{
+   transform: translate(-11%, -77%);
+   opacity: 0.6;
+}
+
+.price__wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.price__title {
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+    margin-bottom: 16px;
+}
+.price__text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+    margin-bottom: 36px;
+    max-width: 600px;
+}
+.price__dollars {
+    font-size: 50px;
+    color: #222F65;
+    margin-bottom: 10px;
+}
+.price__Design {
+    font-size: 16px;
+    color: #37447E;
+    margin-bottom: 60px;
+}
+.price__simple {
+    font-size: 14px;
+    color: #5D6970;
+    margin-bottom: 15px;
+}
+.Purchase {
+    font-size: 14px;
+    padding: 10px 70px;
+    border-radius: 3px;
+    border: none;
+    background-color: #111B47;
+    color: white;
+}

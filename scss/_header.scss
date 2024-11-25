@@ -1,0 +1,40 @@
+.header {
+    margin-bottom: 250px;
+}
+body{
+    font-family: "Roboto", serif;
+}
+.container {
+    width: 1110px;
+    margin: 0px auto;
+}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__links {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    color: #505F98;
+}
+.header__home {
+}
+.header__about {
+}
+.header__contact {
+}
+.header__logo {
+    color: #37447E;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+}
+.header__button {
+    background-color: #111b47;
+    color: white;
+    padding: 5px 70px;
+    border-radius: 5px;
+    border: none;
+}
