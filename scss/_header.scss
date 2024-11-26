@@ -1,5 +1,6 @@
 .header {
     margin-bottom: 250px;
+    margin-top: 20px;
 }
 body{
     font-family: "Roboto", serif;
@@ -17,24 +18,22 @@ body{
     display: flex;
     width: 300px;
     justify-content: space-between;
-    color: #505F98;
+    color: $text-blue;
 }
-.header__home {
+.button{
+    background-color: $button-blue;
+    color: white;
+    font-size: 14px;
 }
-.header__about {
-}
-.header__contact {
-}
-.header__logo {
-    color: #37447E;
+.logo {
+    color: $logo-blue;
     font-weight: 700;
     font-size: 26px;
     line-height: 38px;
 }
 .header__button {
-    background-color: #111b47;
-    color: white;
     padding: 5px 70px;
-    border-radius: 5px;
+    border-radius: 2px;
     border: none;
+    font-size: 12px;
 }
