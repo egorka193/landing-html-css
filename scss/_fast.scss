@@ -12,12 +12,14 @@
     justify-content: center;
     padding: 40px 0px;
 }
-.fast__card-left { button {
-    width: 150px;
-    padding: 8px 10px;
-    font-size: 14px;
-    margin-top: 50px;
-} } 
+.fast__card-left { 
+    button {
+        width: 150px;
+        padding: 8px 10px;
+        font-size: 14px;
+        margin-top: 50px;
+    }
+} 
 .fast__title {
     margin-bottom: 16px;
     font-size: 36px;
@@ -35,19 +37,25 @@
 .fast__minicard {
     max-width: 255px;
 }
-.fast__minicard {img{
-    margin-bottom: 14px;
-}}
-.fast__minicard {h3{
-    font-size: 16px;
-    line-height: 26px;
-    color: $title-blue;
-}}
-.fast__minicard {p{
-    font-size: 12px;
-    line-height: 18px;
-    color: $gray;
-}}
+.fast__minicard {
+    img{
+        margin-bottom: 14px;
+    }
+}
+.fast__minicard {
+    h3{
+        font-size: 16px;
+        line-height: 26px;
+        color: $title-blue;
+    }
+}
+.fast__minicard {
+    p{
+        font-size: 12px;
+        line-height: 18px;
+        color: $gray;
+    }
+}
 .fast__minicard-wrapper {
     display: flex;
     gap: 30px;
