@@ -1,3 +1,11 @@
+.button {
+  background-color: #111B47;
+  color: white;
+  font-size: 14px;
+  border-radius: 2px;
+  border: none;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -16,14 +24,6 @@
   background-repeat: no-repeat;
   background-position-x: 800px;
   background-position-y: 230px;
-}
-
-.background__wrapper-rectangle {
-  background: url(/img/Rectangle.svg);
-  background-repeat: no-repeat;
-  background-position-x: 120px;
-  background-position-y: 200px;
-  padding-bottom: 200px;
 }
 
 .header {
@@ -50,13 +50,6 @@ body {
   display: flex;
   width: 300px;
   justify-content: space-between;
-  color: #505F98;
-}
-
-.button {
-  background-color: #111B47;
-  color: white;
-  font-size: 14px;
 }
 
 .logo {
@@ -68,9 +61,22 @@ body {
 
 .header__button {
   padding: 5px 70px;
-  border-radius: 2px;
-  border: none;
   font-size: 12px;
+}
+
+.header__about {
+  text-decoration: none;
+  color: #505F98;
+}
+
+.header__contact {
+  text-decoration: none;
+  color: #505F98;
+}
+
+.header__home {
+  text-decoration: none;
+  color: #505F98;
 }
 
 .hero {
@@ -90,7 +96,7 @@ body {
 }
 
 .hero__text {
-  color: #091133;
+  color: #505F98;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 70px;
@@ -100,8 +106,6 @@ body {
   padding: 6px 50px;
   margin-right: 30px;
   font-size: 16px;
-  border: none;
-  border-radius: 2px;
 }
 
 .hero__learn {
@@ -114,7 +118,7 @@ body {
 }
 
 .fast__cards {
-  margin: 400px 0;
+  margin: 300px 0;
 }
 
 .fast__card {
@@ -132,8 +136,6 @@ body {
 .fast__card-left button {
   width: 150px;
   padding: 8px 10px;
-  border-radius: 2px;
-  border: none;
   font-size: 14px;
   margin-top: 50px;
 }
@@ -155,41 +157,51 @@ body {
   margin-bottom: 120px;
 }
 
-.fast__miniCard {
+.fast__minicard {
   max-width: 255px;
 }
 
-.fast__miniCard img {
+.fast__minicard img {
   margin-bottom: 14px;
 }
 
-.fast__miniCard h3 {
+.fast__minicard h3 {
   font-size: 16px;
   line-height: 26px;
   color: #091133;
 }
 
-.fast__miniCard p {
+.fast__minicard p {
   font-size: 12px;
   line-height: 18px;
   color: #5D6970;
 }
 
-.fast__miniCard-wrapper {
+.fast__minicard-wrapper {
   display: flex;
   gap: 30px;
 }
 
 .fast__card-another {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row-reverse;
   gap: 125px;
+}
+
+.fast__card-content {
+  max-width: 445px;
 }
 
 .price img {
   transform: translate(-11%, -77%);
   opacity: 0.6;
+}
+
+.price {
+  padding-top: 100px;
+  background-color: #f3f6ff;
+  padding-bottom: 140px;
 }
 
 .price__wrapper {
@@ -221,7 +233,7 @@ body {
   margin-bottom: 10px;
 }
 
-.price__Design {
+.price__design {
   font-size: 16px;
   color: #37447E;
   margin-bottom: 60px;
@@ -236,15 +248,11 @@ body {
 .price_purchase {
   font-size: 14px;
   padding: 10px 70px;
-  border-radius: 2px;
-  border: none;
 }
 
 .footer {
-  padding: 30px 0;
-  background: url(/img/footer-background.svg);
-  background-repeat: no-repeat;
-  background-position-x: 120px;
+  background-color: #e7ecff;
+  padding: 30px 0px;
 }
 
 .footer__top {
@@ -258,6 +266,7 @@ body {
 .footer__home {
   font-size: 14px;
   color: #939EA4;
+  text-decoration: none;
 }
 
 .logo {
@@ -269,9 +278,7 @@ body {
 
 .footer__button {
   font-size: 12px;
-  padding: 8px 30px;
-  border-radius: 3px;
-  border: none;
+  padding: 6px 30px;
 }
 
 hr {
@@ -293,4 +300,16 @@ hr {
 .footer__social-wrapper {
   display: flex;
   gap: 30px;
+}
+
+.footer__about {
+  font-size: 14px;
+  color: #939EA4;
+  text-decoration: none;
+}
+
+.footer__contact {
+  font-size: 14px;
+  color: #939EA4;
+  text-decoration: none;
 }

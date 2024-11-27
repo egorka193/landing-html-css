@@ -3,7 +3,9 @@
    opacity: 0.6;
 }
 .price{
-
+    padding-top: 100px;
+    background-color: #f3f6ff;
+    padding-bottom: 140px;
 }
 
 .price__wrapper{
@@ -31,19 +33,17 @@
     color: #222F65;
     margin-bottom: 10px;
 }
-.price__Design {
+.price__design {
     font-size: 16px;
     color: #37447E;
     margin-bottom: 60px;
 }
 .price__simple {
     font-size: 14px;
-    color: $goes-gray;
+    color: $gray;
     margin-bottom: 15px;
 }
 .price_purchase {
     font-size: 14px;
     padding: 10px 70px;
-    border-radius: 2px;
-    border: none;
 }
