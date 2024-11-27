@@ -1,0 +1,67 @@
+
+.fast__cards {
+    margin: 400px 0;
+}
+.fast__card {
+    display: flex;
+    margin: 100px 0;
+}
+.fast__card-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.fast__card-left button{
+    width: 150px;
+    padding: 8px 10px;
+    border-radius: 2px;
+    border: none;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.fast__title {
+    margin-bottom: 16px;
+    font-size: 36px;
+    line-height: 48px;
+    color: $title-blue;
+}
+.fast__text {
+    
+    color: $text-blue;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.fast__text-first{
+    margin-bottom: 120px;
+}
+.fast__miniCard {
+    max-width: 255px;
+}
+.fast__miniCard img{
+    margin-bottom: 14px;
+}
+.fast__miniCard h3{
+    font-size: 16px;
+    line-height: 26px;
+    color: $title-blue;
+}
+.fast__miniCard p{
+    font-size: 12px;
+    line-height: 18px;
+    color: $goes-gray;
+}
+
+.fast__miniCard-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.fast__card-another{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 125px;
+}

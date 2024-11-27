@@ -1,0 +1,39 @@
+.header {
+    margin-bottom: 250px;
+    margin-top: 20px;
+}
+body{
+    font-family: "Roboto", serif;
+}
+.container {
+    width: 1110px;
+    margin: 0px auto;
+}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__links {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    color: $text-blue;
+}
+.button{
+    background-color: $button-blue;
+    color: white;
+    font-size: 14px;
+}
+.logo {
+    color: $logo-blue;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+}
+.header__button {
+    padding: 5px 70px;
+    border-radius: 2px;
+    border: none;
+    font-size: 12px;
+}

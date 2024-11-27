@@ -1,0 +1,38 @@
+.hero {
+    padding-bottom: 390px;
+}
+
+.hero__introduse {
+    max-width: 551px;
+    
+}
+.hero__title {
+    font-weight: 500;
+    font-size: 50px;
+    color: $title-blue;
+    line-height: 66px;
+    margin-bottom: 20px;
+}
+.hero__text {
+    color: $title-blue;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+
+.hero__purchase {
+   padding: 6px 50px;
+   margin-right: 30px;
+   font-size: 16px;
+   border: none;
+   border-radius: 2px;
+}
+.hero__learn {
+    background-color: transparent;
+    padding: 6px 50px;
+
+}
+
+.hero__path {
+    transform: translate(16%, -58%);  
+}
