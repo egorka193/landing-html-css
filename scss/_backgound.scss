@@ -11,4 +11,12 @@
     background-position-y: 230px;
 }
 
+@media (max-width: 900px){
+    .background__wrapper-path{
+       background: none;
+    }
+    .background__wrapper-group{
+        background: none;
+    }
+}
 

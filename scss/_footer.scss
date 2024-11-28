@@ -57,3 +57,17 @@ hr{
     color: #939EA4;
     text-decoration: none;
 }
+
+@media(max-width:600px){
+    .footer__top{
+        flex-direction: column;
+    }
+    .logo{
+        margin: 10px 0;
+        font-size: 22px;
+    }
+    .footer__bottom{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

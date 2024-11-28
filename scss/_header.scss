@@ -6,7 +6,7 @@ body{
     font-family: "Roboto", serif;
 }
 .container {
-    width: 1110px;
+    max-width: 1110px;
     margin: 0px auto;
 }
 .header__wrapper {
@@ -41,3 +41,26 @@ body{
     text-decoration: none;
     color: $text-blue;
 }
+
+@media (max-width: 1200px){
+    .container{
+        padding: 0 10px;
+    }
+    .header__links{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media (max-width: 650px){
+    .header__wrapper{
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .header {
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+}
+
