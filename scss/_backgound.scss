@@ -10,6 +10,9 @@
     background-position-x: 800px;
     background-position-y: 230px;
 }
+.background__wrapper-rectangle{
+    margin: 300px 0;
+}
 
 @media (max-width: 900px){
     .background__wrapper-path{
@@ -18,5 +21,9 @@
     .background__wrapper-group{
         background: none;
     }
+    .background__wrapper-rectangle{
+        margin: 100px 0;
+    }
+    
 }
 

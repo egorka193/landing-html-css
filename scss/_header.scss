@@ -1,6 +1,6 @@
 .header {
     margin-bottom: 250px;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 body{
     font-family: "Roboto", serif;
@@ -55,12 +55,22 @@ body{
 
 @media (max-width: 650px){
     .header__wrapper{
-        align-items: center;
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+    }
+    .logp__top{
+        order: 0;
+    }
+    .header__button {
+       order: 2;
+    }
+    .header__links{
+        order: 1;
+        margin-top: 10px;
+        margin-bottom: 15px;
     }
     .header {
         margin-bottom: 100px;
-        margin-top: 20px;
     }
 }
 
