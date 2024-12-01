@@ -6,6 +6,11 @@
   border: none;
 }
 
+.container {
+  max-width: 1110px;
+  margin: 0px auto;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -48,11 +53,6 @@
 
 body {
   font-family: "Roboto", serif;
-}
-
-.container {
-  max-width: 1110px;
-  margin: 0px auto;
 }
 
 .header__wrapper {
@@ -107,7 +107,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .logp__top {
+  .logo__top {
     order: 0;
   }
   .header__button {
@@ -172,7 +172,7 @@ body {
     padding-bottom: 20px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .hero__title {
     font-size: 28px;
     line-height: 35px;
@@ -203,7 +203,6 @@ body {
   justify-content: center;
   max-width: 445px;
 }
-
 .fast__card-left button {
   max-width: 150px;
   padding: 8px 10px;
@@ -231,18 +230,15 @@ body {
 .fast__minicard {
   max-width: 255px;
 }
-
 .fast__minicard img {
   margin-bottom: 14px;
 }
-
 .fast__minicard h3 {
   font-size: 16px;
   line-height: 26px;
   color: #091133;
   margin-bottom: 6px;
 }
-
 .fast__minicard p {
   font-size: 12px;
   line-height: 18px;
@@ -286,7 +282,7 @@ body {
     margin: 30px 0;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .fast__title {
     font-size: 26px;
   }
@@ -352,7 +348,7 @@ body {
   padding: 10px 70px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .price__title {
     font-size: 24px;
     line-height: 25px;
@@ -388,20 +384,13 @@ body {
   margin-bottom: 30px;
 }
 
-.logo {
-  color: #37447E;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 38px;
-}
-
 .footer__button {
   font-size: 12px;
   padding: 6px 30px;
 }
 
-hr {
-  border: 0.3px solid;
+.footer hr {
+  border: 1px solid;
   margin-bottom: 20px;
   border-color: #CDD1D4;
 }
@@ -441,7 +430,7 @@ hr {
   gap: 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .footer__top {
     flex-direction: column;
   }

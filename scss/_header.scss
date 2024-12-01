@@ -5,10 +5,7 @@
 body{
     font-family: "Roboto", serif;
 }
-.container {
-    max-width: 1110px;
-    margin: 0px auto;
-}
+
 .header__wrapper {
     display: flex;
     justify-content: space-between;
@@ -53,12 +50,12 @@ body{
 
 
 
-@media (max-width: 650px){
+@media (max-width: $width-650px){
     .header__wrapper{
         display: flex;
         flex-direction: column;
     }
-    .logp__top{
+    .logo__top{
         order: 0;
     }
     .header__button {

@@ -8,15 +8,14 @@
     flex-direction: column;
     justify-content: center;
     max-width: 445px;
-}
-.fast__card-left { 
     button {
         max-width: 150px;
         padding: 8px 10px;
         font-size: 14px;
         margin-top: 50px;
     }
-} 
+}
+
 .fast__title {
     margin-bottom: 16px;
     font-size: 36px;
@@ -33,21 +32,15 @@
 }
 .fast__minicard {
     max-width: 255px;
-}
-.fast__minicard {
     img{
         margin-bottom: 14px;
     }
-}
-.fast__minicard {
     h3{
         font-size: 16px;
         line-height: 26px;
         color: $title-blue;
         margin-bottom: 6px;
     }
-}
-.fast__minicard {
     p{
         font-size: 12px;
         line-height: 18px;
@@ -92,7 +85,7 @@
     }
 }
 
-@media(max-width: 600px){
+@media(max-width: $width-650px){
     .fast__title{
         font-size: 26px;
     }

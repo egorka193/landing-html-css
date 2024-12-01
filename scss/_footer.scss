@@ -11,20 +11,13 @@
     justify-content: space-between;
     margin-bottom: 30px;
 }
-
-.logo {
-    color: $logo-blue;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 38px;
-}
 .footer__button {
     font-size: 12px;
     padding: 6px 30px;
 }
 
-hr{
-    border: 0.3px solid;
+.footer hr{
+    border: 1px solid;
     margin-bottom: 20px;
     border-color: #CDD1D4;
 }
@@ -64,7 +57,7 @@ hr{
 
 
 
-@media(max-width:600px){
+@media(max-width: $width-650px){
     .footer__top{
         flex-direction: column;
     }
