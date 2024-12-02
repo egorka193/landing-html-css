@@ -1,7 +1,9 @@
-.price img{
-   transform: translate(-11%, -77%);
-   opacity: 0.6;
-}
+.price{
+    img{
+        transform: translate(-11%, -77%);
+        opacity: 0.6;
+    }
+} 
 .price{
     padding-top: 100px;
     background-color: #f3f6ff;
@@ -47,3 +49,28 @@
     font-size: 14px;
     padding: 10px 70px;
 }
+
+
+@media (max-width: $width-650px){
+    .price__title{
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .price__text{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .price__dollars{
+        font-size: 30px;
+    }
+    .price__design{
+        font-size: 14px;
+    }
+    .price__simple{
+        font-size: 12px;
+    }
+    .price_purchase {
+        font-size: 12px;
+        padding: 8px 40px;
+    }
+ }

@@ -11,26 +11,18 @@
     justify-content: space-between;
     margin-bottom: 30px;
 }
-.footer__home {
-    font-size: 14px;
-    color: #939EA4;
-    text-decoration: none;
-}
-.logo {
-    color: $logo-blue;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 38px;
-}
 .footer__button {
     font-size: 12px;
     padding: 6px 30px;
 }
 
-hr{
-    border:0.4px solid $gray;
+.footer hr{
+    border: 1px solid;
     margin-bottom: 20px;
-    
+    border-color: #CDD1D4;
+}
+.footer__year{
+    color: #939EA4;
 }
 
 .footer__bottom {
@@ -40,20 +32,41 @@ hr{
 .footer__link-second {
     display: flex;
     gap: 60px;
-    color: #929ECC;
+    margin-bottom: 10px;
+    .footer__home {
+        color: #929ECC;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    .footer__about{
+        font-size: 14px;
+        color: #929ECC;
+        text-decoration: none;
+    }
+    .footer__contact{
+        font-size: 14px;
+        color: #929ECC;
+        text-decoration: none;
+    }
 }
 
 .footer__social-wrapper{
     display: flex;
     gap: 30px;
 }
-.footer__about{
-    font-size: 14px;
-    color: #939EA4;
-    text-decoration: none;
-}
-.footer__contact{
-    font-size: 14px;
-    color: #939EA4;
-    text-decoration: none;
+
+
+
+@media(max-width: $width-650px){
+    .footer__top{
+        flex-direction: column;
+    }
+    .logo__bottom{
+        margin: 10px 0;
+        font-size: 22px;
+    }
+    .footer__bottom{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

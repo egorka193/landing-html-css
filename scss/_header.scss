@@ -1,14 +1,11 @@
 .header {
     margin-bottom: 250px;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 body{
     font-family: "Roboto", serif;
 }
-.container {
-    width: 1110px;
-    margin: 0px auto;
-}
+
 .header__wrapper {
     display: flex;
     justify-content: space-between;
@@ -41,3 +38,36 @@ body{
     text-decoration: none;
     color: $text-blue;
 }
+
+@media (max-width: 1200px){
+    .container{
+        padding: 0 10px;
+    }
+    .header__links{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media (max-width: $width-650px){
+    .header__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo__top{
+        order: 0;
+    }
+    .header__button {
+       order: 2;
+    }
+    .header__links{
+        order: 1;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .header {
+        margin-bottom: 100px;
+    }
+}
+
